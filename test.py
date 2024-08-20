@@ -13,5 +13,5 @@ def receive_message():
     return jsonify({'status': 'Message received'}), 200
 
 if __name__ == '__main__':
-    print("//////////////////////////////START//////////////////////////////")
+    print("//////////////////////////////START//////////////////////////////", flush=True)
     app.run(host='0.0.0.0', port=5000)

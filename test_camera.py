@@ -5,7 +5,8 @@ import time
 # Webカメラからのキャプチャ
 cap = cv2.VideoCapture(0)  # 0はデフォルトのカメラ
 
-server_url = "https://docs.render.com/troubleshooting-deploys"  # Flaskサーバーのエンドポイント
+# Render上のFlaskサーバーのエンドポイント
+server_url = "https://webtest-1.onrender.com/message"  # <your-service-name> を実際の Render サービス名に置き換えてください
 
 while True:
     # フレームをキャプチャ
